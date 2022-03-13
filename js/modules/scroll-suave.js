@@ -13,7 +13,7 @@ export default class ScrollSuave {
     event.preventDefault();
     const href = event.currentTarget.getAttribute('href');
     const section = document.querySelector(href);
-    const top = section.offsetTop;
+    // const top = section.offsetTop;
     section.scrollIntoView(this.options);
     // Forma alternativa
     // window.scrollTo({
