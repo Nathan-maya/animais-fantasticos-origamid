@@ -4,7 +4,7 @@ export default class TabNav {
     this.tabContent = document.querySelectorAll(content);
     if (this.active === undefined) {
       this.active = 'ativo';
-    }else {
+    } else {
       this.active = active;
     }
   }
